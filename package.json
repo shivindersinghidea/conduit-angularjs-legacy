@@ -21,5 +21,14 @@
     "marked": "^0.3.5",
     "merge-stream": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "cypress": "^12.17.0",
+    "serve": "^14.2.0"
+  },
+  "scripts": {
+    "test:serve": "serve -s src -l 5000 --single",
+    "test:e2e": "cypress run --config baseUrl=http://localhost:5000",
+    "test:e2e:ci": "npm run test:serve & npx cypress run --config baseUrl=http://localhost:5000"
   }
 }

@@ -1,0 +1,125 @@
+{
+  "articles": [
+    {
+      "slug": "first-article",
+      "title": "First Article",
+      "description": "First article description",
+      "body": "# Heading\n\nThis is the first article body.",
+      "tagList": ["testing", "news"],
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2020-01-01T00:00:00.000Z",
+      "favorited": false,
+      "favoritesCount": 0,
+      "author": { "username": "alice", "bio": null, "image": null, "following": false }
+    },
+    {
+      "slug": "first-article-2",
+      "title": "First Article 2",
+      "description": "Another description",
+      "body": "Body 2.",
+      "tagList": ["news"],
+      "createdAt": "2020-01-01T01:00:00.000Z",
+      "updatedAt": "2020-01-01T01:00:00.000Z",
+      "favorited": false,
+      "favoritesCount": 0,
+      "author": { "username": "bob", "bio": null, "image": null, "following": false }
+    },
+    {
+      "slug": "first-article-3",
+      "title": "First Article 3",
+      "description": "Another description",
+      "body": "Body 3.",
+      "tagList": ["news"],
+      "createdAt": "2020-01-01T02:00:00.000Z",
+      "updatedAt": "2020-01-01T02:00:00.000Z",
+      "favorited": false,
+      "favoritesCount": 0,
+      "author": { "username": "carol", "bio": null, "image": null, "following": false }
+    },
+    {
+      "slug": "first-article-4",
+      "title": "First Article 4",
+      "description": "Another description",
+      "body": "Body 4.",
+      "tagList": ["news"],
+      "createdAt": "2020-01-01T03:00:00.000Z",
+      "updatedAt": "2020-01-01T03:00:00.000Z",
+      "favorited": false,
+      "favoritesCount": 0,
+      "author": { "username": "dave", "bio": null, "image": null, "following": false }
+    },
+    {
+      "slug": "first-article-5",
+      "title": "First Article 5",
+      "description": "Another description",
+      "body": "Body 5.",
+      "tagList": ["news"],
+      "createdAt": "2020-01-01T04:00:00.000Z",
+      "updatedAt": "2020-01-01T04:00:00.000Z",
+      "favorited": false,
+      "favoritesCount": 0,
+      "author": { "username": "erin", "bio": null, "image": null, "following": false }
+    },
+    {
+      "slug": "first-article-6",
+      "title": "First Article 6",
+      "description": "Another description",
+      "body": "Body 6.",
+      "tagList": ["news"],
+      "createdAt": "2020-01-01T05:00:00.000Z",
+      "updatedAt": "2020-01-01T05:00:00.000Z",
+      "favorited": false,
+      "favoritesCount": 0,
+      "author": { "username": "frank", "bio": null, "image": null, "following": false }
+    },
+    {
+      "slug": "first-article-7",
+      "title": "First Article 7",
+      "description": "Another description",
+      "body": "Body 7.",
+      "tagList": ["news"],
+      "createdAt": "2020-01-01T06:00:00.000Z",
+      "updatedAt": "2020-01-01T06:00:00.000Z",
+      "favorited": false,
+      "favoritesCount": 0,
+      "author": { "username": "gina", "bio": null, "image": null, "following": false }
+    },
+    {
+      "slug": "first-article-8",
+      "title": "First Article 8",
+      "description": "Another description",
+      "body": "Body 8.",
+      "tagList": ["news"],
+      "createdAt": "2020-01-01T07:00:00.000Z",
+      "updatedAt": "2020-01-01T07:00:00.000Z",
+      "favorited": false,
+      "favoritesCount": 0,
+      "author": { "username": "harry", "bio": null, "image": null, "following": false }
+    },
+    {
+      "slug": "first-article-9",
+      "title": "First Article 9",
+      "description": "Another description",
+      "body": "Body 9.",
+      "tagList": ["news"],
+      "createdAt": "2020-01-01T08:00:00.000Z",
+      "updatedAt": "2020-01-01T08:00:00.000Z",
+      "favorited": false,
+      "favoritesCount": 0,
+      "author": { "username": "irene", "bio": null, "image": null, "following": false }
+    },
+    {
+      "slug": "first-article-10",
+      "title": "First Article 10",
+      "description": "Another description",
+      "body": "Body 10.",
+      "tagList": ["news"],
+      "createdAt": "2020-01-01T09:00:00.000Z",
+      "updatedAt": "2020-01-01T09:00:00.000Z",
+      "favorited": false,
+      "favoritesCount": 0,
+      "author": { "username": "jane", "bio": null, "image": null, "following": false }
+    }
+  ],
+  "articlesCount": 11
+}

@@ -23,3 +23,17 @@ If you want to change the API URL to a local server, simply edit `src/js/config/
 <br />
 
 [![Brought to you by Thinkster](https://raw.githubusercontent.com/gothinkster/realworld/master/media/end.png)](https://thinkster.io)
+
+## Characterisation tests (DLV-EDZJKU)
+
+This repository now includes Cypress end-to-end characterisation tests that pin the behaviour of the legacy AngularJS "first slice" (article list and article view) to support the React strangler migration (DLV-EDZJKU).
+
+To run the tests locally:
+
+1. npm install --no-audit --no-fund --no-package-lock
+2. npm run test:serve
+3. npm run test:e2e
+
+The tests are fixture-driven and intercept API calls to make CI deterministic. Fixtures live under cypress/fixtures and the main spec is cypress/e2e/characterisation.spec.js.
+
+If you want the tests to run against a live backend, adjust the cypress intercepts or run the server without stubbing (not recommended for CI).
