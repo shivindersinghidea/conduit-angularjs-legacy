@@ -1,0 +1,14 @@
+{
+  "article": {
+    "slug": "first-article",
+    "title": "First Article",
+    "description": "First article description",
+    "body": "# First Article\n\nThis is the first article body.",
+    "tagList": ["testing", "news"],
+    "createdAt": "2020-01-01T00:00:00.000Z",
+    "updatedAt": "2020-01-01T00:00:00.000Z",
+    "favorited": false,
+    "favoritesCount": 0,
+    "author": { "username": "alice", "bio": null, "image": null, "following": false }
+  }
+}

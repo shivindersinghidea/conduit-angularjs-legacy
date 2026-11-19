@@ -1,0 +1,17 @@
+{
+  "articles": [
+    {
+      "slug": "second-page-article",
+      "title": "Second Page Article",
+      "description": "Second page description",
+      "body": "Second page body.",
+      "tagList": ["news"],
+      "createdAt": "2020-01-02T00:00:00.000Z",
+      "updatedAt": "2020-01-02T00:00:00.000Z",
+      "favorited": false,
+      "favoritesCount": 0,
+      "author": { "username": "bob", "bio": null, "image": null, "following": false }
+    }
+  ],
+  "articlesCount": 11
+}
